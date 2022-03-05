@@ -1,0 +1,328 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* de aici incepe codul, sus este resetul css */
+
+header {
+  background-color: rgba(114, 114, 114, 0.514);
+  width: 100%;
+  height: 150px;
+}
+
+header img {
+  height: 150px;
+  width: 150px;
+  margin-left: 20px;
+  float: left;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* MENIUL DE NAVIGARE */
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin-top: 70px;
+  margin-right: 45px;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.877);
+  text-shadow: 1px 1px black;
+}
+
+nav ul li {
+  display: inline-block; /*pt a ordona in linie elementele listei*/
+  margin-left: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* SECTIUNEA ACASA */
+
+section img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.articole {
+  font-size: 25px;
+  color: white;
+  background-color: rgba(114, 114, 114, 0.514);
+  padding-top: 50px;
+  text-shadow: 1px 1px black;
+  overflow: hidden; /*overflow pt aranjare automata. articolul cu footer ul.*/
+  text-align: center;
+}
+
+.imgarticole {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.articole article {
+  width: 33.33%;
+  float: left;
+  padding-top: 20px;
+}
+
+.articole article p {
+  text-align: center;
+}
+
+footer {
+  background-color: rgba(114, 114, 114, 0.514);
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer h1 {
+  text-align: center;
+  font-family: 20px;
+  color: white;
+  text-decoration: underline;
+}
+
+/* SECTIUNEA CONTACT */
+
+.contact {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.contact input {
+  width: 35%;
+  margin-bottom: 7px;
+  text-indent: 5px;
+  color: white;
+  text-shadow: 1px 1px black;
+  border: 3px solid white;
+  background: none;
+}
+
+.contact textarea {
+  width: 35%;
+  height: 140px;
+  color: white;
+  text-shadow: 1px 1px black;
+  border: 3px solid white;
+  resize: none; /*pt a nu putea modifica casuta*/
+  background: none;
+}
+
+.contact button {
+  width: 14%;
+  height: 8%px;
+  font-size: 18px;
+  border: 3px solid white;
+}
+
+.contactbackground {
+  background-image: url(bmw-x6-interior\ copy.jpg);
+  background-size: 100%;
+}
+
+/* SECTIUNEA ISTORIE */
+.wrapper {
+  height: 100%;
+}
+
+.fixed-bg1 {
+  width: 100%;
+}
+
+.fixed-bg1 {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* first section */
+
+.wrapper {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+.fixed-bg1 {
+  background-image: url(BMW-Time-1.jpg);
+
+  width: 100%;
+  color: rgb(13, 163, 223);
+}
+
+.fixed-bg1 h1 {
+  vertical-align: middle;
+  text-align: center;
+  text-shadow: 1.2px 1.2px black;
+  width: 70%;
+  margin: 0 auto;
+}
+.fixed-bg1 p {
+  text-shadow: 1.2px 1.2px black;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* SECTIUNEA MODELE, MODELE X, MODELE M */
+
+.modelebmw {
+  overflow: hidden;
+  padding-top: 50px;
+}
+
+.modelebmw article {
+  float: left;
+  width: 50%;
+}
+
+.modelul {
+  width: 80%;
+}
+.modelul pre {
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.modelul h1 {
+  font-size: 30px;
+  padding-left: 150px;
+  padding-top: 7%;
+}
